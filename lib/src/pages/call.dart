@@ -42,6 +42,9 @@ class _CallPageState extends State<CallPage> {
     super.initState();
     // initialize agora sdk
     initialize();
+
+    print(widget.role);
+
   }
 
   Future<void> initialize() async {
